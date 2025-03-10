@@ -45,7 +45,7 @@ allCountries.addEventListener('click', function (e) {
         e.preventDefault(); // Prevent default anchor behavior
         let countryName = e.target.getAttribute('data-name');
         let encodedCountryName = encodeURIComponent(countryName); // Encode the country name
-        window.location.href = `http://127.0.0.1:5501/single.html?countryname=${encodedCountryName}`;
+        window.location.href = `https://ratnadeeplca.github.io/country/single.html?countryname=${encodedCountryName}`;
     }
 });
 
